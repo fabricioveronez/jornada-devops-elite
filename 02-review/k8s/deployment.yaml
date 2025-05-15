@@ -57,7 +57,7 @@ spec:
     spec:
       containers:
         - name: review
-          image: fabricioveronez/review-jornada:v2
+          image: fabricioveronez/fake-shop-desafio
           ports:
             - containerPort: 8080
           env:

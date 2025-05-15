@@ -55,5 +55,5 @@ jobs:
                 images: |
                     fabricioveronez/fake-shop-desafio:${{github.run_number}}
                 manifests: |
-                    k8s/deployment.yaml
+                    ./02-review/k8s/deployment.yaml
       
